@@ -1,0 +1,24 @@
+{
+  "name": "laura_abend_portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisserious/laura_abend_portfolio.git"
+  },
+  "author": "Laura Abend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisserious/laura_abend_portfolio/issues"
+  },
+  "homepage": "https://github.com/thisisserious/laura_abend_portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
