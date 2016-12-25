@@ -3,13 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Laura Abend</title>
+
+    <!-- vendors -->
+    <script src="../vendors/angular.min.js" charset="utf-8"></script>
+    <script src="../vendors/angular-route.min.js" charset="utf-8"></script>
+
+    <!-- scripts -->
+    <script src="../scripts/app.module.js" charset="utf-8"></script>
+    <script src="../scripts/home.controller.js" charset="utf-8"></script>
+    <script src="../scripts/main.config.js" charset="utf-8"></script>
+
     <!-- styles -->
     <link rel="title icon" href="../assets/title_icon.png" />
     <link rel="stylesheet" href="../styles/style.css" />
+    <base href="/" />
   </head>
   <body>
-    <main>
-      <h1>Laura Abend</h1>
+    <main ng-app="myApp">
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li>Projects</li>
+          <li>Bio</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <ng-view></ng-view>
     </main>
   </body>
 </html>

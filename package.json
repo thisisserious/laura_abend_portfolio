@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/thisisserious/laura_abend_portfolio#readme",
   "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
   }
