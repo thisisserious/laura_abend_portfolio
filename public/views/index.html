@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Laura Abend</title>
 
@@ -16,19 +17,24 @@
     <!-- styles -->
     <link rel="title icon" href="../assets/title_icon.png" />
     <link rel="stylesheet" href="../styles/style.css" />
+
     <base href="/" />
-  </head>
-  <body>
+</head>
+
+<body>
     <main ng-app="myApp">
-      <nav>
-        <ul>
-          <li><a href="/home">Home</a></li>
-          <li>Projects</li>
-          <li>Bio</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <ng-view></ng-view>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li>Projects</li>
+                    <li>Bio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <ng-view></ng-view>
     </main>
-  </body>
+</body>
+
 </html>
