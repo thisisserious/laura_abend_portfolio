@@ -1,6 +1,14 @@
 body {
-  background-color: #FDF3E7;
+  /*background-color: #C0C0C0;*/
+  /*background-color: #D3D3D3;*/
+  background-color: #3B3F45;
   font-family: Helvetica, sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 main {
