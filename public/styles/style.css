@@ -1,7 +1,7 @@
 body {
   background-color: #C0C0C0;
   color: #696969;
-  font-family: Helvetica, sans-serif;
+  /*font-family: Helvetica, sans-serif;*/
 }
 
 a {
@@ -16,6 +16,15 @@ main {
 li {
   display: inline;
   margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .project {
