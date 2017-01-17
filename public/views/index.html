@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laura Abend</title>
 
     <!-- vendors -->
@@ -15,25 +16,24 @@
     <script src="../scripts/main.config.js" charset="utf-8"></script>
 
     <!-- styles -->
+    <link type="text/css" rel="stylesheet" href="../styles/normalize.css" />
     <link rel="title icon" href="../assets/title_icon.png" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link type="text/css" rel="stylesheet" href="../styles/style.css" />
 
     <base href="/" />
 </head>
 
 <body>
     <main ng-app="myApp">
-        <header>
             <nav>
-                <ul>
+                <ul class="navList">
                     <li><a href="/home">Home</a></li>
-                    <li>Projects</li>
-                    <li>Bio</li>
-                    <li>Contact</li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#aboutMe">Bio</a></li>
+                    <li><a href="#">Connect</a></li>
                 </ul>
             </nav>
-        </header>
         <ng-view></ng-view>
     </main>
 </body>
