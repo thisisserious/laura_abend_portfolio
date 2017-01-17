@@ -29,6 +29,19 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Navigation */
+
+.navList {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navList a {
+  padding: .75em 1.5em;
+  transition: all .25s ease-in-out;
+}
+
 .project {
   border: 1px solid #C0C0C0;
   display: inline-flex;
@@ -49,8 +62,6 @@ p {
 
 #glamour {
   padding: 0px;
-  border-radius: 100%;
-  border: 5px solid #C0C0C0;
   max-width: 100%;
   height: auto;
   float: left;
@@ -60,4 +71,10 @@ p {
   display: flex;
   align-items: center;
   padding: 10px;
+}
+
+/* mobile-first design */
+@media only screen and (min-width:768px) {
+  body {
+  }
 }
