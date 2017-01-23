@@ -26,14 +26,16 @@
 
 <body>
     <main ng-app="myApp">
-            <nav>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/home">{ LA }</a>
                 <ul class="navList">
-                    <li><a href="/home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#aboutMe">Bio</a></li>
                     <li><a href="#">Connect</a></li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
         <ng-view></ng-view>
     </main>
 </body>
