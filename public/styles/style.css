@@ -58,6 +58,11 @@ p {
   word-break: break-all;
 }
 
+/* Projects */
+.col-md-4 {
+  border: 1px solid #C0C0C0;
+}
+
 /* IDs */
 #placeholder {
   border: 1px solid #C0C0C0;
