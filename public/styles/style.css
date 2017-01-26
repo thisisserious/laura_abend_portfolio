@@ -73,6 +73,12 @@ p {
   width: 100%;
 }
 
+#resume:hover {
+  background-image: url("../assets/glamour.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #glamour {
   padding: 0px;
   max-width: 100%;
