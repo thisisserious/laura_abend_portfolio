@@ -55,7 +55,7 @@ p {
 /* Jumbotron */
 .jumbotron {
   background: #333333;
-  word-break: break-all;
+  word-break: normal;
 }
 
 /* Projects */
@@ -71,12 +71,6 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-
-#resume:hover {
-  background-image: url("../assets/glamour.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #glamour {
