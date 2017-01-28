@@ -6,6 +6,7 @@ body {
   color: #C0C0C0;
   /*font-family: Helvetica, sans-serif;*/
   padding-top: 70px;
+  margin-bottom: 5em;
 }
 
 a {
@@ -81,9 +82,7 @@ p {
 }
 
 #bio {
-  display: flex;
-  align-items: center;
-  padding: 10px;
+  margin: 10px;
 }
 
 #git, #linkedIn {
