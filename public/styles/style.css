@@ -1,4 +1,4 @@
-/* General */
+/* Elements */
 body {
   /*background-color: #C0C0C0;*/
   /*color: #696969;*/
@@ -43,15 +43,6 @@ p {
   transition: all .25s ease-in-out;
 }
 
-.project {
-  border: 1px solid #C0C0C0;
-  display: inline-flex;
-  height: 27em;
-  justify-content: space-around;
-  align-items: center;
-  width: 33%;
-}
-
 /* Jumbotron */
 .jumbotron {
   display: flex;
@@ -71,12 +62,12 @@ p {
 }
 
 /* Projects */
-.col-md-4 {
+div.col-md-4 {
   border: 1px solid #C0C0C0;
+  text-align: center;
 }
 
 /* IDs */
-
 #glamour {
   padding: 0px;
   max-width: 100%;
