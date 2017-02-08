@@ -64,7 +64,13 @@ p {
 
 /* Projects */
 div.col-md-4 {
-  border: 1px solid #C0C0C0;
+  /*border: 1px solid #C0C0C0;*/
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+div.col-md-4 h3, h4 {
+  /*border: 1px solid #C0C0C0;*/
   text-align: center;
 }
 
