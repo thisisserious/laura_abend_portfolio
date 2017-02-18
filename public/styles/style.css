@@ -62,58 +62,16 @@ p {
   margin: 0;
 }
 
-/* Projects */
-/*div.col-md-3 {
-  text-align: justify;
-  height: 22em;
-}*/
-
 div.col-md-4 {
   text-align: center;
 }
 
-/* IDs */
-
-#projects {
-  margin-top: 40em;
-}
-
-#project1, #project8 {
-  background: #e3e6ea;
-  color: #808080;
-}
-
-#project2, #project7 {
-  background: #cfd2d6;
-  color: #696969;
-}
-
-#project3, #project6 {
-  background: #b7babf;
-  color: #4d6066;
-}
-
-#project4, #project5 {
-  background: #95979b;
-  color: #3e3e3e;
-}
-
-#aboutMe {
+.bio {
   background: grey;
   margin-top: 40em;
 }
 
-#bio {
-  margin: 10px;
-}
-
-#git, #linkedIn {
+.social-media-icons {
   width: 30px;
   height: 30px;
 }
-
-/* mobile-first design */
-/*@media only screen and (min-width:768px) {
-  body {
-  }
-}*/
